@@ -176,6 +176,9 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 
 **Prioridade**: Média
 
+**Versão**: 1.0
+
+**Data**: 2026-05-13
 
 **Critérios de Aceitação**
 
@@ -183,6 +186,7 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 * [ ] Exibir ranking final
 * [ ] Ordenar jogadores por pontuação
 * [ ] Atualizar ranking automaticamente
+* [x] Contabilizar pontuação por inimigo destruido
 
 **Dependências**: Nenhuma
 
@@ -349,7 +353,29 @@ Quadro Kanban:
 - Lívia M.
 
 ### Prints da Sprint
-(colocar print aqui)
+* Começo do Sprint 1
+
+<img width="1195" height="843" alt="image" src="https://github.com/user-attachments/assets/820fa494-ddc1-4179-8f73-181195b73df8" />
+
+* Meio do Sprint 1
+
+<img width="1204" height="823" alt="image" src="https://github.com/user-attachments/assets/0b418821-46b2-4875-8b77-d62cbe17d10f" />
+
+* Fim do Sprint 1 e Começo do Sprint 2
+
+<img width="1198" height="622" alt="image" src="https://github.com/user-attachments/assets/2ca63320-63ab-423d-b493-2a9a1aeada64" />
+
+* Meio do Sprint 2
+
+<img width="1204" height="623" alt="image" src="https://github.com/user-attachments/assets/f72cfbf8-09c5-4470-b438-a81332d462e4" />
+
+* Fim do Sprint 2
+
+<img width="1196" height="660" alt="image" src="https://github.com/user-attachments/assets/bc74248b-87fc-4a42-8d23-8508f8143f02" />
+
+* Começo do Sprint 3
+
+<img width="1197" height="667" alt="image" src="https://github.com/user-attachments/assets/dd50e174-4fd7-4ef6-8fb0-3d0b6bbe00ab" />
 
 ### Dificuldades Encontradas
 - Velocidade de processamento do Scratch, foi necessário adaptações.
@@ -374,7 +400,37 @@ Quadro Kanban:
 
 ---
 
-## 7. Rastreabilidade
+## 7 . Análise do Grupo/Kanban
+
+#### - Como o Kanban ajudou na organização do grupo?
+
+- O Kanban graças a sua visualidade ajudou o grupo a se organizar diante a tarefas em realização, testes, concluídas e etc.
+
+#### - Quais gargalos surgiram?
+
+- Dificuldades técnicas com Scratch.
+
+#### - Houve excesso de tarefas em desenvolvimento?
+
+- Não, pois controlamos e distribuimos as tarefas a serem feitas com o grupo todo.
+
+#### - O quadro ajudou na comunicação?
+
+- Sim, pois como anteriormente dito, o quadro do Kanban ajudou na distruibuição e visualização do que ser feito.
+
+#### - Como foi feita a distribuição de tarefas?
+
+- Como anteriormente dito, controlamos e distribuimos as tarefas com todos, claro, alguns ficaram com coisas a mais a serem feitas, mas nada que atrapalhasse o ritmo.
+
+#### - O Scratch facilitou o desenvolvimento?
+
+- Não, pois tivemos dificuldades técnicas diante o mesmo na criação e teste do jogo.
+
+#### - O que poderia melhorar no fluxo da equipe?
+
+- Em geral, não vimos nenhum problema com a equipe, visto que todos fizeram sua parte.
+
+## 8. Rastreabilidade
 
 ```mermaid
 graph LR
@@ -386,13 +442,13 @@ graph LR
 
 ---
 
-## 8. Aprovação
+## 9. Aprovação
 
 ### Matriz de Aprovação
 
 | Nome       | Função         | Aprovação |
 | ---------- | -------------- | --------- |
-| Eduardo N. | Desenvolvedor  | ⬜         |
-| Felipe R.  | Desenvolvedor  | ⬜         |
-| Beatriz B. | Desenvolvedora | ⬜         |
-| Lívia M.   | Desenvolvedora | ⬜         |
+| Eduardo N. | Desenvolvedor  | ⬜ (Não Feito)        |
+| Felipe R.  | Coordenador/Teste  | ⬜ (Não Feito)        |
+| Beatriz B. | Designer Gráfico | ⬜ (Não Feito)     |
+| Lívia M.   | Designer Gráfico/Desenvolvedora | ⬜ (Não Feito)        |
