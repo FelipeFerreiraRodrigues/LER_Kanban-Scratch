@@ -389,18 +389,8 @@ Quadro Kanban:
 - Programar sistemas de ranking e pontos;
 ---
 
-## 6. Controle de Versões
 
-### 6.1 Histórico de Alterações
-
-| Versão | Data                 | Autor                     | Modificação                  |
-| ------ | -------------------- | ------------------------- | ---------------------------- |
-| 1.0    | 2026-05-22           | Eduardo N.                | Criação inicial do documento |
-| 1.1    | (escrever data aqui) | Equipe de Desenvolvimento | (escrever alteração aqui)    |
-
----
-
-## 7 . Análise do Grupo/Kanban
+## 6 . Análise do Grupo/Kanban
 
 #### - Como o Kanban ajudou na organização do grupo?
 
@@ -430,7 +420,7 @@ Quadro Kanban:
 
 - Em geral, não vimos nenhum problema com a equipe, visto que todos fizeram sua parte.
 
-## 8. Rastreabilidade
+## 7. Rastreabilidade
 
 ```mermaid
 graph LR
@@ -442,7 +432,7 @@ graph LR
 
 ---
 
-## 9. Aprovação
+## 8. Aprovação
 
 ### Matriz de Aprovação
 
