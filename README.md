@@ -85,10 +85,6 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 
 **Prioridade**: Alta
 
-**Versão**: 1.0
-
-**Data**: 2026-05-22
-
 **Critérios de Aceitação**
 
 * [ ] Gerar perguntas automaticamente
@@ -100,15 +96,51 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 
 ---
 
-#### RF-002: Sistema de Vidas
+#### RF-002: Controle da Nave Espacial
+
+**Descrição**: O jogador deve controlar uma nave espacial durante a partida.
+
+**Prioridade**: Média
+
+**Versão**: 1.0
+
+**Data**: 2026-05-13
+
+**Critérios de Aceitação**
+
+* [x] Nave responder aos comandos
+* [x] Movimentação fluida
+* [x] Limite de movimentação na tela
+* [x] Colisão funcionando corretamente (A fazer RF-009)
+* [x] Sistema de disparos
+
+**Dependências**: Nenhuma
+
+---
+
+#### RF-003: Sistema de Inimigos
+
+**Descrição**: O sistema deve criar e gerenciar inimigos que se movimentam pela tela e interagem com a nave do jogador, representando os obstáculos matemáticos do jogo.
+
+**Prioridade**: Alta
+
+**Versão**: 1.0 
+
+**Data**: 2026-05-13
+
+ **Critérios de Aceitação**
+
+ * [x] Inimigos surgem na tela
+ * [x] Se movem de forma autônoma
+ * [x] Possui colisão
+
+---
+
+#### RF-004: Sistema de Vidas
 
 **Descrição**: O sistema deve controlar a quantidade de vidas do jogador durante a partida.
 
 **Prioridade**: Alta
-
-**Versão**: 1.0
-
-**Data**: 2026-05-22
 
 **Critérios de Aceitação**
 
@@ -117,19 +149,15 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 * [ ] Encerrar jogo ao atingir zero vidas
 * [ ] Exibir vidas na interface
 
-**Dependências**: RF-001
+**Dependências**: RF-002
 
 ---
 
-#### RF-003: Sistema de Cronômetro
+#### RF-005: Sistema de Cronômetro
 
 **Descrição**: O sistema deve possuir um cronômetro para limitar o tempo de resposta do jogador.
 
-**Prioridade**: Média
-
-**Versão**: 1.0
-
-**Data**: 2026-05-22
+**Prioridade**: Baixa
 
 **Critérios de Aceitação**
 
@@ -138,19 +166,16 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 * [ ] Encerrar rodada quando tempo acabar
 * [ ] Exibir tempo restante na tela
 
-**Dependências**: RF-001
+**Dependências**: Nenhuma
 
 ---
 
-#### RF-004: Sistema de Ranking
+#### RF-006: Sistema de Ranking e Pontos
 
 **Descrição**: O sistema deve registrar a pontuação final dos jogadores.
 
 **Prioridade**: Média
 
-**Versão**: 1.0
-
-**Data**: 2026-05-22
 
 **Critérios de Aceitação**
 
@@ -159,11 +184,11 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 * [ ] Ordenar jogadores por pontuação
 * [ ] Atualizar ranking automaticamente
 
-**Dependências**: RF-001
+**Dependências**: Nenhuma
 
 ---
 
-#### RF-005: Sistema de Dificuldade
+#### RF-007: Sistema de Dificuldade
 
 **Descrição**: O sistema deve alterar a dificuldade das perguntas conforme o progresso do jogador.
 
@@ -171,58 +196,76 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 
 **Versão**: 1.0
 
-**Data**: 2026-05-22
+**Data**: 2026-05-13
 
 **Critérios de Aceitação**
 
-* [ ] Possuir níveis fácil, médio e difícil
-* [ ] Alterar dificuldade manualmente ou automaticamente
+* [x] Possuir níveis fácil, médio e difícil
+* [x] Alterar dificuldade manualmente ou automaticamente
 * [ ] Aumentar complexidade das operações
 * [ ] Ajustar velocidade do jogo
-
-**Dependências**: RF-001
-
----
-
-#### RF-006: Controle da Nave Espacial
-
-**Descrição**: O jogador deve controlar uma nave espacial durante a partida.
-
-**Prioridade**: Média
-
-**Versão**: 1.0
-
-**Data**: 2026-05-22
-
-**Critérios de Aceitação**
-
-* [ ] Nave responder aos comandos
-* [ ] Movimentação fluida
-* [ ] Limite de movimentação na tela
-* [ ] Colisão funcionando corretamente
 
 **Dependências**: Nenhuma
 
 ---
 
-#### RF-007: Sistema de Pontuação
+**Dependências**: Nenhuma
 
-**Descrição**: O sistema deve calcular a pontuação do jogador conforme desempenho.
+---
+
+#### RF-008: Tela Inicial
+
+**Descrição**: O sistema deve exibir uma tela de inicio no começo do jogo, apresentando titulo e opções de dificuldade.
+
+**Prioridade**: Média 
+
+**Versão**: 1.0 
+
+**Data**: 2026-05-13
+
+**Critérios de Aceitação**
+
+* [x] Tela inicial é exibida no inicio ou fim do jogo
+
+**Dependências**: RF-006
+
+---
+
+#### RF-009: Tela Final
+
+**Descrição**: O sistema deve exibir uma tela de encerramento ao término do jogo, apresentando o resultado da partida e oferecendo opção de reinício.
+
+**Prioridade**: Média 
+
+**Versão**: 1.0
+
+**Critérios de Aceitação**
+
+* [ ] A tela final é exibida ao zerar vidas ou o tempo
+* [ ] Exibe resultado da partida, como níveis e pontuação
+
+**Dependências**: RF-003, RF-004, RF-005
+
+---
+
+#### RF-010: Sistema de Perguntas e Respostas
+
+**Descrição** O sistema deve exibir perguntas de acordo com a dificuldade do jogo, retirando vidas a respostas erradas e adicionando pontos a respostas certas.
 
 **Prioridade**: Alta
 
 **Versão**: 1.0
 
-**Data**: 2026-05-22
-
 **Critérios de Aceitação**
 
-* [ ] Adicionar pontos por acertos
-* [ ] Remover ou reduzir pontos por erros
-* [ ] Exibir pontuação em tempo real
-* [ ] Mostrar resultado final da partida
+* [ ] O sistema deve gerar perguntas após o usuário atingir um inimigo com um disparo
+* [ ] Aceita respostas corretas e soma pontos
+* [ ] Nega respostas erradas e subtrai vida
+* [ ] Aceita apenas números diante a resposta da equação
+* [ ] Aumentar dificuldade das perguntas de acordo com a dificuldade escolhida pelo jogador
 
-**Dependências**: RF-001
+**Dependências**: RF-001, RF-002, RF-003, RF-004, RF-006, RF-007
+
 
 ---
 
@@ -297,7 +340,7 @@ Quadro Kanban:
 
 ### 5.1 Modelo de Registro Diário
 
-## Atualização - DD/MM/AAAA
+## Atualização - 13/05/2026
 
 ### Integrantes Presentes
 - Eduardo N.
@@ -305,22 +348,19 @@ Quadro Kanban:
 - Beatriz B.
 - Lívia M.
 
-### Tarefas Realizadas
-- (descrever atividade realizada)
-- (descrever implementação feita)
-- (descrever correções realizadas)
-
 ### Prints da Sprint
 (colocar print aqui)
 
 ### Dificuldades Encontradas
-- (escrever dificuldades)
+- Velocidade de processamento do Scratch, foi necessário adaptações.
 
 ### Soluções Aplicadas
-- (escrever soluções)
+- Não realizar leitura de estado simultâneamente
 
 ### Próximos Passos
-- (escrever próximos objetivos)
+- Programar sistema de perguntas e respostas;
+- Programar sistema de vidas;
+- Programar sistemas de ranking e pontos;
 ---
 
 ## 6. Controle de Versões
