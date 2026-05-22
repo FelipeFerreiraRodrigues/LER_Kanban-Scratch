@@ -209,11 +209,7 @@ O jogador controlará uma nave espacial enquanto responde perguntas matemáticas
 * [ ] Aumentar complexidade das operações
 * [ ] Ajustar velocidade do jogo
 
-**Dependências**: Nenhuma
-
----
-
-**Dependências**: Nenhuma
+**Dependências**: RF-001
 
 ---
 
